@@ -1,0 +1,938 @@
+[
+  {
+    "module": "Fondations — acquis précédents",
+    "title": "Les bases financières d’un futur repreneur",
+    "description": "Cette première semaine consolide les notions déjà vues avec le professeur : produits/charges, bilan, compte de résultat, EBE/CAF, FRNG/BFR et prévisionnel de trésorerie. Chaque chapitre distingue rentabilité, financement et liquidité.",
+    "example": "Une PME de maçonnerie réalise 1,2 M€ de CA avec 90 k€ de bénéfice, mais son FRNG de 70 k€ ne couvre pas son BFR de 90 k€ : la trésorerie nette ressort à −20 k€.",
+    "formula": "trésorerie nette = FRNG − BFR ; CAF simplifiée = résultat net + amortissements (hypothèses précisées)",
+    "warning": "Ne jamais confondre bénéfice, CAF, trésorerie, amortissement et remboursement bancaire.",
+    "subjects": [
+      "Produits, charges et trésorerie",
+      "Bilan, actif et passif",
+      "Compte de résultat et marges",
+      "EBE, CAF et amortissements",
+      "FRNG, BFR, trésorerie nette",
+      "Prévisionnel de trésorerie sur 12 mois",
+      "Examen des fondamentaux"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "Actif, passif et bilan",
+    "description": "Le bilan rassemble les ressources économiques de l’entreprise à l’actif et les capitaux propres et obligations au passif. Il décrit une situation à une date précise.",
+    "example": "Matériel 150 k€, créances 80 k€, banque 20 k€ : actif 250 k€, financé par 90 k€ de capitaux propres et 160 k€ de dettes.",
+    "formula": "total actif = total passif",
+    "warning": "Un bilan équilibré peut décrire une entreprise en grande difficulté.",
+    "subjects": [
+      "actif immobilisé",
+      "actif circulant",
+      "capitaux propres",
+      "emprunts et dettes",
+      "équilibre comptable",
+      "lecture critique du bilan",
+      "synthèse du bilan"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "Écritures et plan comptable",
+    "description": "Toute écriture de comptabilité en partie double comporte des débits et des crédits de même montant. Les numéros de compte permettent de classer les opérations.",
+    "example": "Facture d’achat de béton à crédit : achats et TVA déductible au débit, dette fournisseur au crédit.",
+    "formula": "total débits = total crédits",
+    "warning": "Débit ne signifie pas systématiquement dépense et crédit ne signifie pas recette.",
+    "subjects": [
+      "classes de comptes",
+      "débit et crédit",
+      "facture de vente",
+      "facture d’achat",
+      "règlement client",
+      "règlement fournisseur",
+      "révision des écritures"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "TVA et comptabilité BTP",
+    "description": "La TVA collectée et déductible doit être distinguée des produits et charges hors taxes. Son exigibilité dépend de l’opération et du régime applicable.",
+    "example": "Une facture à 10 000 € HT avec TVA illustrative de 20 % représente 12 000 € TTC ; la taxe doit être isolée.",
+    "formula": "TTC = HT × (1 + taux de TVA)",
+    "warning": "Ne pas appliquer un taux de TVA BTP sans vérifier nature, logement et conditions légales.",
+    "subjects": [
+      "HT et TTC",
+      "TVA collectée",
+      "TVA déductible",
+      "autoliquidation sous-traitance",
+      "exigibilité",
+      "déclaration et contrôle",
+      "revue des TVA"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "Immobilisations et amortissements",
+    "description": "Le coût d’un équipement utilisé sur plusieurs exercices est généralement immobilisé et amorti selon sa durée d’utilisation.",
+    "example": "Mini-pelle 60 k€ amortie linéairement sur cinq ans : 12 k€ de dotation par année complète.",
+    "formula": "dotation linéaire = base amortissable ÷ durée",
+    "warning": "Amortir ne veut pas dire rembourser un emprunt.",
+    "subjects": [
+      "achat ou location",
+      "entrée en immobilisation",
+      "durée d’utilisation",
+      "plan d’amortissement",
+      "valeur nette comptable",
+      "cession de matériel",
+      "synthèse équipement"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "Stocks et travaux en cours",
+    "description": "Les stocks comprennent les éléments détenus pour l’activité et les travaux en cours peuvent nécessiter des traitements comptables spécifiques.",
+    "example": "Stocks 35 k€ et variation de stock de 8 k€ : ne pas assimiler automatiquement les achats de l’année à la consommation.",
+    "formula": "consommation = stock initial + achats − stock final",
+    "warning": "Les travaux en cours et les acomptes clients ne sont pas interchangeables.",
+    "subjects": [
+      "inventaire physique",
+      "coût des stocks",
+      "variation de stocks",
+      "travaux en cours",
+      "situations de travaux",
+      "cut-off chantiers",
+      "synthèse stocks"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Comptabilité",
+    "title": "Provisions, clôture et comptes annuels",
+    "description": "À la clôture, on rattache les charges et produits au bon exercice et on apprécie notamment les créances douteuses et les risques.",
+    "example": "Facture impayée et contestée : examiner l’éventuelle dépréciation et ses justificatifs.",
+    "formula": "résultat ajusté = résultat avant clôture ± écritures de régularisation",
+    "warning": "Ne pas constituer une provision simplement pour réduire l’impôt.",
+    "subjects": [
+      "charges à payer",
+      "produits à recevoir",
+      "factures non parvenues",
+      "dépréciation client",
+      "provisions pour risques",
+      "annexe et clôture",
+      "revue annuelle"
+    ],
+    "mod": 0
+  },
+  {
+    "module": "Analyse financière",
+    "title": "Compte de résultat et SIG",
+    "description": "Les soldes intermédiaires de gestion montrent la formation du résultat étape par étape et aident à repérer l’origine des dérives.",
+    "example": "CA 1,2 M€ et charges opérationnelles 1,01 M€ : EBE simplifié 190 k€.",
+    "formula": "taux de marge = marge ÷ chiffre d’affaires × 100",
+    "warning": "Une hausse du CA ne garantit pas une hausse du bénéfice.",
+    "subjects": [
+      "production et marge",
+      "valeur ajoutée",
+      "EBE",
+      "résultat d’exploitation",
+      "résultat financier",
+      "résultat net",
+      "lecture multiannuelle"
+    ],
+    "mod": 1
+  },
+  {
+    "module": "Analyse financière",
+    "title": "EBE et CAF",
+    "description": "L’EBE décrit la performance brute de l’exploitation, tandis que la CAF estime les ressources internes avant variation du BFR.",
+    "example": "Résultat net 80 k€ et amortissements 30 k€, sans autres retraitements : CAF 110 k€.",
+    "formula": "CAF simplifiée = résultat net + dotations aux amortissements",
+    "warning": "La CAF n’est pas le solde bancaire et l’EBE ne paie pas automatiquement les emprunts.",
+    "subjects": [
+      "calcul EBE",
+      "passage à l’exploitation",
+      "calcul CAF",
+      "dotations et reprises",
+      "CAF et dette",
+      "capex et CAF",
+      "synthèse CAF"
+    ],
+    "mod": 1
+  },
+  {
+    "module": "Analyse financière",
+    "title": "FRNG, BFR et trésorerie nette",
+    "description": "Le FRNG mesure l’excédent des ressources stables sur les emplois stables ; le BFR mesure les décalages d’exploitation.",
+    "example": "FRNG 70 k€, BFR 90 k€ : trésorerie nette −20 k€.",
+    "formula": "trésorerie nette = FRNG − BFR",
+    "warning": "Un découvert bancaire couvre temporairement un déficit ; il ne supprime pas sa cause.",
+    "subjects": [
+      "ressources stables",
+      "emplois stables",
+      "BFR d’exploitation",
+      "BFR hors exploitation",
+      "trésorerie nette",
+      "leviers BFR",
+      "diagnostic FRNG"
+    ],
+    "mod": 1
+  },
+  {
+    "module": "Analyse financière",
+    "title": "Ratios de structure et liquidité",
+    "description": "Les ratios permettent de comparer des exercices et d’identifier des tensions de solvabilité, avec prudence sur les définitions.",
+    "example": "Actif courant 300 k€ et passif courant 200 k€ : liquidité générale 1,5.",
+    "formula": "liquidité générale = actif courant ÷ passif courant",
+    "warning": "Un bon ratio isolé n’exclut pas les impayés ou les litiges.",
+    "subjects": [
+      "liquidité générale",
+      "liquidité réduite",
+      "autonomie financière",
+      "endettement net",
+      "couverture des intérêts",
+      "ratios sectoriels",
+      "tableau de ratios"
+    ],
+    "mod": 1
+  },
+  {
+    "module": "Analyse financière",
+    "title": "Audit de rentabilité comparée",
+    "description": "Une analyse de reprise compare au moins trois exercices et explique les écarts par les prix, volumes, coûts, chantiers et événements exceptionnels.",
+    "example": "CA +12 %, résultat net −45 % : rechercher les dérives de coût et les éléments non récurrents.",
+    "formula": "variation % = (valeur nouvelle − ancienne) ÷ ancienne × 100",
+    "warning": "Un résultat positif peut dépendre d’un chantier exceptionnel.",
+    "subjects": [
+      "analyse horizontale",
+      "analyse verticale",
+      "marge par chantier",
+      "coûts de personnel",
+      "sous-traitance",
+      "résultat retraité",
+      "rapport de diagnostic"
+    ],
+    "mod": 1
+  },
+  {
+    "module": "Finance d’entreprise",
+    "title": "Prévisionnel de trésorerie",
+    "description": "Un prévisionnel positionne les encaissements et décaissements à leurs dates probables, idéalement en version mensuelle et 13 semaines.",
+    "example": "Banque initiale 18 k€, encaissements 60 k€, sorties 70 k€ : solde final 8 k€.",
+    "formula": "solde final = solde initial + encaissements − décaissements",
+    "warning": "Une fin de mois positive peut cacher un point bas négatif.",
+    "subjects": [
+      "flux encaissés",
+      "flux décaissés",
+      "13 semaines",
+      "12 mois",
+      "point bas",
+      "retards clients",
+      "plan d’action"
+    ],
+    "mod": 2
+  },
+  {
+    "module": "Finance d’entreprise",
+    "title": "Emprunts et échéanciers",
+    "description": "Distinguer capital restant dû, intérêts, mensualités, garanties et covenants. Comparer la maturité du financement à la durée d’usage du bien.",
+    "example": "Sur une échéance de 2 000 €, 1 700 € peuvent rembourser le capital et 300 € représenter les intérêts.",
+    "formula": "mensualité = capital remboursé + intérêts + frais éventuels",
+    "warning": "Le capital remboursé n’est pas une charge du compte de résultat.",
+    "subjects": [
+      "taux nominal et TAEG",
+      "amortissement du prêt",
+      "capital restant dû",
+      "sûretés",
+      "covenants",
+      "renégociation",
+      "synthèse endettement"
+    ],
+    "mod": 2
+  },
+  {
+    "module": "Finance d’entreprise",
+    "title": "Investissements et décisions",
+    "description": "Un investissement s’analyse selon son coût total, ses flux futurs, les risques et la trésorerie nécessaire.",
+    "example": "Une mini-pelle de 50 k€ économise 14 k€/an de location, mais ajoute entretien, assurance et immobilisation.",
+    "formula": "délai simple de récupération = investissement ÷ flux annuel net",
+    "warning": "Un projet rentable peut mettre l’entreprise en tension de trésorerie.",
+    "subjects": [
+      "capex et opex",
+      "flux incrémentaux",
+      "retour sur investissement",
+      "VAN",
+      "TRI",
+      "acheter ou louer",
+      "note de décision"
+    ],
+    "mod": 2
+  },
+  {
+    "module": "Finance d’entreprise",
+    "title": "Coût du capital et création de valeur",
+    "description": "Le coût du capital reflète l’exigence de rémunération des apporteurs de capitaux et des prêteurs, ajustée au risque.",
+    "example": "Un investissement offrant 6 % alors que son coût du capital est 10 % mérite une analyse critique.",
+    "formula": "VAN = somme des flux actualisés − investissement initial",
+    "warning": "Ne pas calculer le coût du capital à partir du seul taux du prêt.",
+    "subjects": [
+      "coût de la dette",
+      "coût des fonds propres",
+      "WACC",
+      "actualisation",
+      "prime de risque",
+      "sensibilité",
+      "arbitrage de financement"
+    ],
+    "mod": 2
+  },
+  {
+    "module": "Contrôle de gestion",
+    "title": "Budgets et centres de coûts",
+    "description": "Le contrôle de gestion organise les budgets, les réalisations et l’analyse des écarts pour piloter des décisions concrètes.",
+    "example": "Budget chantier 220 k€, réel 238 k€ : écart défavorable de 18 k€.",
+    "formula": "écart = réel − budget",
+    "warning": "Un dépassement doit être expliqué avant d’être imputé à une équipe.",
+    "subjects": [
+      "construction du budget",
+      "coûts directs",
+      "coûts indirects",
+      "écart prix",
+      "écart quantité",
+      "actions correctives",
+      "revue budgétaire"
+    ],
+    "mod": 3
+  },
+  {
+    "module": "Contrôle de gestion",
+    "title": "Marge, coûts de revient et seuil",
+    "description": "Le coût de revient combine déboursés directs et charges indirectes imputables ; les marges doivent être définies précisément.",
+    "example": "Prix 150 k€, coût direct 105 k€ : marge sur coûts directs 45 k€, avant frais généraux.",
+    "formula": "marge = prix de vente − coût retenu",
+    "warning": "Ne pas confondre marge sur coûts directs et résultat net.",
+    "subjects": [
+      "marge brute",
+      "charges variables",
+      "charges fixes",
+      "taux de marge",
+      "coût complet",
+      "seuil de rentabilité",
+      "étude de sensibilité"
+    ],
+    "mod": 3
+  },
+  {
+    "module": "Contrôle de gestion",
+    "title": "Tableau de bord de direction",
+    "description": "Un tableau de bord limité à quelques indicateurs fiables permet d’anticiper les dérives de rentabilité, de qualité et de trésorerie.",
+    "example": "Suivre chaque semaine la marge à terminaison, les créances échues et le carnet de commandes.",
+    "formula": "taux de réalisation = réalisé ÷ objectif × 100",
+    "warning": "Un indicateur sans responsable et sans action associée apporte peu.",
+    "subjects": [
+      "choix des KPI",
+      "sources de données",
+      "fréquences",
+      "seuils d’alerte",
+      "prévisions glissantes",
+      "revue hebdomadaire",
+      "comité mensuel"
+    ],
+    "mod": 3
+  },
+  {
+    "module": "Contrôle de gestion",
+    "title": "Prévision de résultat et scénarios",
+    "description": "Mettre à jour l’atterrissage annuel en séparant chiffre d’affaires acquis, probable et incertain.",
+    "example": "Si deux chantiers de 100 k€ sont reportés, réviser les ventes et la charge des équipes.",
+    "formula": "atterrissage = réalisé à date + prévision du reste",
+    "warning": "Ne pas confondre carnet de commandes signé et simple devis.",
+    "subjects": [
+      "pipeline chantier",
+      "charges à terminaison",
+      "scénario prudent",
+      "scénario central",
+      "scénario optimiste",
+      "plans correctifs",
+      "reforecast"
+    ],
+    "mod": 3
+  },
+  {
+    "module": "Fiscalité",
+    "title": "TVA appliquée au BTP",
+    "description": "La TVA BTP dépend des travaux, du client, de la nature du local, des conditions et parfois de l’autoliquidation en sous-traitance.",
+    "example": "Avant devis de rénovation, vérifier précisément l’éligibilité aux taux réduits et les justificatifs.",
+    "formula": "TTC = HT + TVA calculée",
+    "warning": "Ne jamais appliquer automatiquement un taux réduit à tous les travaux de rénovation.",
+    "subjects": [
+      "opérations taxables",
+      "taux applicables",
+      "travaux de rénovation",
+      "autoliquidation",
+      "exigibilité",
+      "justificatifs",
+      "audit TVA"
+    ],
+    "mod": 4
+  },
+  {
+    "module": "Fiscalité",
+    "title": "Impôt sur les sociétés et résultat fiscal",
+    "description": "Le bénéfice comptable n’est pas toujours égal au bénéfice imposable : retraitements et règles fiscales peuvent s’appliquer.",
+    "example": "Une charge non déductible augmente le résultat fiscal sans augmenter le bénéfice comptable.",
+    "formula": "résultat fiscal = résultat comptable + réintégrations − déductions",
+    "warning": "Les taux, seuils et dispositifs changent : vérifier impots.gouv.fr avant application.",
+    "subjects": [
+      "résultat comptable/fiscal",
+      "réintégrations",
+      "déductions",
+      "acomptes IS",
+      "déficits fiscaux",
+      "liasses",
+      "revue fiscale"
+    ],
+    "mod": 4
+  },
+  {
+    "module": "Fiscalité",
+    "title": "Rémunération du dirigeant et fiscalité",
+    "description": "Le choix rémunération/dividendes dépend du statut social, de la fiscalité, de la trésorerie et des besoins de protection sociale.",
+    "example": "Comparer une rémunération de président de SAS et de gérant majoritaire de SARL sur un coût complet, pas seulement le net.",
+    "formula": "coût global = rémunération + cotisations et taxes associées",
+    "warning": "Ne pas optimiser la fiscalité en négligeant la couverture sociale ou la trésorerie.",
+    "subjects": [
+      "salaire et dividendes",
+      "statut dirigeant",
+      "charges sociales",
+      "PFU et options",
+      "compte courant associé",
+      "arbitrage pratique",
+      "simulation rémunération"
+    ],
+    "mod": 4
+  },
+  {
+    "module": "Fiscalité",
+    "title": "Fiscalité des acquisitions",
+    "description": "Le traitement fiscal diffère selon achat de titres, fonds de commerce ou actifs ; la structuration doit être étudiée avec des spécialistes.",
+    "example": "Une reprise de titres peut transmettre des passifs historiques ; un achat de fonds obéit à d’autres mécanismes.",
+    "formula": "coût d’acquisition complet = prix + frais + financement + besoins de trésorerie",
+    "warning": "Une économie fiscale apparente ne compense pas nécessairement un risque juridique.",
+    "subjects": [
+      "titres ou fonds",
+      "droits d’enregistrement",
+      "holding",
+      "intérêts et déductibilité",
+      "plus-values",
+      "audit fiscal",
+      "checklist closing"
+    ],
+    "mod": 4
+  },
+  {
+    "module": "Droit des entreprises",
+    "title": "SAS, SARL et gouvernance",
+    "description": "Le choix de forme sociale influence pouvoirs, décisions, gouvernance et régime social du dirigeant.",
+    "example": "Deux associés d’une entreprise de maçonnerie définissent les pouvoirs de signature dans les statuts et délégations.",
+    "formula": "décision valable = compétence + procédure + traçabilité",
+    "warning": "Les statuts et règles applicables doivent être vérifiés dans leur version en vigueur.",
+    "subjects": [
+      "formes sociales",
+      "statuts",
+      "pouvoirs du dirigeant",
+      "assemblées",
+      "pacte d’associés",
+      "délégations",
+      "contrôle de gouvernance"
+    ],
+    "mod": 5
+  },
+  {
+    "module": "Droit des entreprises",
+    "title": "Contrats et marchés de travaux",
+    "description": "Les contrats BTP encadrent prix, délais, pénalités, modifications, paiement, réception et responsabilités.",
+    "example": "Une modification de dallage doit être formalisée et chiffrée avant exécution si possible.",
+    "formula": "prix révisé = prix initial + avenants valides − déductions",
+    "warning": "Un accord oral sur des travaux supplémentaires peut être difficile à prouver.",
+    "subjects": [
+      "devis et contrat",
+      "marché privé/public",
+      "avenants",
+      "situations",
+      "délais",
+      "réception",
+      "gestion des litiges"
+    ],
+    "mod": 5
+  },
+  {
+    "module": "Droit des entreprises",
+    "title": "Assurances, garanties et responsabilités",
+    "description": "La construction exige un suivi rigoureux des assurances, qualifications, responsabilités et garanties légales selon les travaux.",
+    "example": "Avant démarrage, contrôler les attestations d’assurance appropriées et leur période de validité.",
+    "formula": "risque net = probabilité × impact (outil d’aide à la décision)",
+    "warning": "Les champs de garantie et exclusions varient selon les polices.",
+    "subjects": [
+      "RC professionnelle",
+      "décennale",
+      "dommages-ouvrage",
+      "garanties après réception",
+      "sous-traitants",
+      "sinistres",
+      "audit assurances"
+    ],
+    "mod": 5
+  },
+  {
+    "module": "Droit des entreprises",
+    "title": "Conformité, prévention et RGPD",
+    "description": "Le dirigeant doit organiser la veille réglementaire, la prévention des risques professionnels et la protection des données.",
+    "example": "Un chantier avec sous-traitants nécessite des échanges documentés sur les mesures de sécurité adaptées.",
+    "formula": "priorité du risque = gravité × probabilité (méthode indicative)",
+    "warning": "Ne pas confondre formation et habilitation professionnelle obligatoire.",
+    "subjects": [
+      "sécurité chantier",
+      "DUERP",
+      "PPSPS/coordination",
+      "inspection",
+      "données personnelles",
+      "archivage",
+      "plan de conformité"
+    ],
+    "mod": 5
+  },
+  {
+    "module": "Ressources humaines",
+    "title": "Paie et coût du personnel",
+    "description": "La paie combine salaire brut, cotisations, indemnités, temps de travail et obligations sociales ; le coût employeur est plus large que le net.",
+    "example": "Un maçon à 2 300 € brut mensuel coûte à l’entreprise davantage que ce brut, selon les cotisations applicables.",
+    "formula": "coût employeur = brut + charges patronales + autres coûts",
+    "warning": "Ne pas appliquer un pourcentage unique de charges à tous les profils.",
+    "subjects": [
+      "brut/net",
+      "cotisations",
+      "heures supplémentaires",
+      "indemnités BTP",
+      "congés",
+      "contrôle paie",
+      "budget personnel"
+    ],
+    "mod": 6
+  },
+  {
+    "module": "Ressources humaines",
+    "title": "Recrutement et compétences",
+    "description": "Recruter suppose de définir un besoin, de sélectionner, d’intégrer et de suivre les compétences et habilitations utiles.",
+    "example": "Préparer l’embauche d’un chef d’équipe capable de superviser deux chantiers simultanés.",
+    "formula": "coût de recrutement = sourcing + intégration + temps mobilisé",
+    "warning": "Une embauche peut accroître le CA mais aussi le point mort.",
+    "subjects": [
+      "fiche de poste",
+      "sourcing",
+      "entretien",
+      "contrat",
+      "intégration",
+      "évaluation",
+      "plan de formation"
+    ],
+    "mod": 6
+  },
+  {
+    "module": "Ressources humaines",
+    "title": "Organisation du travail et droit social",
+    "description": "Les horaires, déplacements, contrats, absences et ruptures doivent être gérés selon les règles françaises et conventions collectives applicables.",
+    "example": "Vérifier la convention applicable avant de fixer les indemnités de déplacement.",
+    "formula": "effectif moyen = somme des effectifs pondérés ÷ période",
+    "warning": "Ne pas prendre une décision de licenciement sans étude juridique de la procédure.",
+    "subjects": [
+      "convention collective",
+      "temps de travail",
+      "déplacements",
+      "absences",
+      "entretiens",
+      "discipline",
+      "rupture de contrat"
+    ],
+    "mod": 6
+  },
+  {
+    "module": "Ressources humaines",
+    "title": "Productivité, équipes et rentabilité",
+    "description": "La performance des équipes dépend de la préparation, de la sécurité, du matériel et des compétences, pas uniquement du nombre d’heures.",
+    "example": "Un chantier avec 800 h prévues et 940 h réalisées doit faire l’objet d’une analyse d’écart.",
+    "formula": "écart heures = heures réelles − heures prévues",
+    "warning": "Une réduction d’effectif n’améliore pas toujours la productivité.",
+    "subjects": [
+      "heures prévues",
+      "heures réelles",
+      "cadence",
+      "polyvalence",
+      "absentéisme",
+      "planning effectifs",
+      "plan de productivité"
+    ],
+    "mod": 6
+  },
+  {
+    "module": "Gestion de chantier",
+    "title": "Devis et déboursé sec",
+    "description": "Le déboursé sec regroupe les dépenses directement affectables au chantier ; il constitue une base de chiffrage, pas le prix de vente.",
+    "example": "Dalle béton : matériaux 8 k€, main-d’œuvre 5 k€, engins 2 k€ : déboursé sec 15 k€.",
+    "formula": "déboursé sec = matériaux + main-d’œuvre directe + matériel et sous-traitance directs",
+    "warning": "Oublier les temps de préparation ou pertes matière fausse la marge.",
+    "subjects": [
+      "métrés",
+      "matériaux",
+      "temps unitaire",
+      "matériel",
+      "sous-traitance",
+      "déboursé sec",
+      "contrôle devis"
+    ],
+    "mod": 7
+  },
+  {
+    "module": "Gestion de chantier",
+    "title": "Prix de revient et frais généraux",
+    "description": "Le prix de revient intègre les coûts directs et la part de frais généraux imputables ; il doit servir à fixer un prix avec marge.",
+    "example": "Coût direct 100 k€, frais de chantier 12 k€, frais généraux imputés 15 k€ : coût de revient 127 k€.",
+    "formula": "prix de vente = coût de revient + marge visée",
+    "warning": "Une marge de 20 % sur coût n’est pas une marge de 20 % sur prix.",
+    "subjects": [
+      "frais de chantier",
+      "frais généraux",
+      "coefficient de vente",
+      "marge sur prix",
+      "risque et aléas",
+      "offre commerciale",
+      "revue avant signature"
+    ],
+    "mod": 7
+  },
+  {
+    "module": "Gestion de chantier",
+    "title": "Planning, achats et logistique",
+    "description": "Un planning fiable tient compte des approvisionnements, effectifs, interfaces, délais contractuels et risques d’arrêt.",
+    "example": "Décaler la livraison de banches peut immobiliser une équipe entière pendant une journée.",
+    "formula": "écart délai = durée réelle − durée prévue",
+    "warning": "Un prix fournisseur plus bas n’est pas avantageux si le retard bloque le chantier.",
+    "subjects": [
+      "chemin critique",
+      "approvisionnements",
+      "rotation matériel",
+      "coordination sous-traitants",
+      "planning 3 semaines",
+      "livraisons",
+      "suivi avancement"
+    ],
+    "mod": 7
+  },
+  {
+    "module": "Gestion de chantier",
+    "title": "Suivi des situations et marge à terminaison",
+    "description": "Comparer coût engagé, reste à faire et prix du contrat pour anticiper la marge finale, pas seulement le résultat à date.",
+    "example": "Prix 250 k€, coûts engagés 150 k€, reste à faire 85 k€ : marge prévisionnelle 15 k€.",
+    "formula": "marge à terminaison = prix contractuel actualisé − coût final estimé",
+    "warning": "La marge peut se dégrader avant que la comptabilité ne le révèle.",
+    "subjects": [
+      "situations mensuelles",
+      "travaux supplémentaires",
+      "coût engagé",
+      "reste à faire",
+      "marge à terminaison",
+      "réclamations",
+      "clôture chantier"
+    ],
+    "mod": 7
+  },
+  {
+    "module": "Gestion de chantier",
+    "title": "Sécurité, qualité et déchets",
+    "description": "Un chantier bien géré exige prévention, contrôles qualité, traçabilité et gestion des déchets.",
+    "example": "Prévoir une zone de tri et tracer les enlèvements évite des coûts et non-conformités.",
+    "formula": "coût déchets = transport + traitement + manutention",
+    "warning": "Un chantier rentable mais non conforme peut générer des pertes futures importantes.",
+    "subjects": [
+      "PIC et accès",
+      "prévention",
+      "contrôle béton",
+      "réserves et reprises",
+      "déchets",
+      "DOE",
+      "retour d’expérience"
+    ],
+    "mod": 7
+  },
+  {
+    "module": "Management",
+    "title": "Rôle du dirigeant et délégation",
+    "description": "Le dirigeant organise les responsabilités, fixe les objectifs et conserve le contrôle des risques critiques.",
+    "example": "Déléguer les commandes jusqu’à 2 000 € au chef de chantier avec reporting hebdomadaire.",
+    "formula": "délégation efficace = mission + moyens + autorité + contrôle",
+    "warning": "Déléguer une tâche ne signifie pas abandonner le suivi.",
+    "subjects": [
+      "priorités dirigeant",
+      "organigramme",
+      "délégations",
+      "rituels de pilotage",
+      "responsabilités",
+      "arbitrages",
+      "revue managériale"
+    ],
+    "mod": 8
+  },
+  {
+    "module": "Management",
+    "title": "Communication et gestion des conflits",
+    "description": "Les conflits de chantier se traitent à partir de faits vérifiables, des contrats et d’une recherche de résolution documentée.",
+    "example": "Désaccord conducteur de travaux / sous-traitant sur une reprise de bétonnage.",
+    "formula": "plan d’action = constat + responsable + échéance + preuve de clôture",
+    "warning": "Une tension ignorée devient rapidement un problème de coût ou de sécurité.",
+    "subjects": [
+      "écoute active",
+      "feedback",
+      "réunions",
+      "désaccords",
+      "médiation",
+      "communication client",
+      "retour d’expérience"
+    ],
+    "mod": 8
+  },
+  {
+    "module": "Management",
+    "title": "Culture de performance et formation",
+    "description": "Créer un cadre où les équipes signalent les risques tôt et apprennent des écarts améliore la sécurité et les marges.",
+    "example": "Analyser les causes d’une erreur de métrés sans réduire le problème à une faute individuelle.",
+    "formula": "taux d’actions closes = actions closes ÷ actions prévues × 100",
+    "warning": "Des objectifs irréalistes dégradent qualité, sécurité et engagement.",
+    "subjects": [
+      "objectifs SMART",
+      "coaching terrain",
+      "compétences",
+      "qualité",
+      "sécurité psychologique",
+      "reconnaissance",
+      "revue collective"
+    ],
+    "mod": 8
+  },
+  {
+    "module": "Développement commercial",
+    "title": "Prospection et positionnement",
+    "description": "Le commercial BTP repose sur la sélection des bons clients, la crédibilité technique et la discipline de suivi.",
+    "example": "Cibler les architectes et maîtres d’œuvre locaux spécialisés dans les villas individuelles.",
+    "formula": "taux transformation = affaires gagnées ÷ offres émises × 100",
+    "warning": "Un carnet de commandes plein peut être mauvais s’il est sous-margé.",
+    "subjects": [
+      "cibles",
+      "proposition de valeur",
+      "réseau local",
+      "qualification",
+      "CRM",
+      "relance",
+      "revue commerciale"
+    ],
+    "mod": 9
+  },
+  {
+    "module": "Développement commercial",
+    "title": "Appels d’offres et négociation",
+    "description": "Avant de répondre, examiner les critères, les contraintes, les risques et le potentiel de marge du contrat.",
+    "example": "Refuser une consultation exigeant un délai impossible malgré un bon prix apparent.",
+    "formula": "marge offre = prix proposé − coût prévu",
+    "warning": "Remporter un appel d’offres n’est pas l’objectif si la marge est négative.",
+    "subjects": [
+      "go/no-go",
+      "lecture DCE",
+      "mémoire technique",
+      "prix",
+      "risques contractuels",
+      "négociation",
+      "retour perte/gain"
+    ],
+    "mod": 9
+  },
+  {
+    "module": "Développement commercial",
+    "title": "Relation client et réputation",
+    "description": "La réputation d’une PME se construit par la tenue des engagements, les preuves de qualité et le traitement rapide des problèmes.",
+    "example": "Mettre en place une visite de réception et une procédure de suivi des réserves.",
+    "formula": "taux satisfaction = clients satisfaits ÷ répondants × 100",
+    "warning": "Promettre des délais intenables fragilise le carnet de commandes futur.",
+    "subjects": [
+      "parcours client",
+      "devis clair",
+      "information travaux",
+      "réception",
+      "SAV",
+      "avis et références",
+      "fidélisation"
+    ],
+    "mod": 9
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "Recherche et qualification des cibles",
+    "description": "Définir les critères d’acquisition : zone, métiers, taille, rentabilité, qualité de l’équipe et dépendance au cédant.",
+    "example": "Cible : maçonnerie en Savoie/Haute-Savoie, 5 à 10 salariés, chantiers maisons individuelles.",
+    "formula": "score cible = somme pondérée des critères choisis",
+    "warning": "Un prix séduisant ne compense pas une dépendance totale au dirigeant.",
+    "subjects": [
+      "critères",
+      "sources de dossiers",
+      "prise de contact",
+      "NDA",
+      "premier entretien",
+      "scoring",
+      "shortlist"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "Audit d’acquisition financier",
+    "description": "Vérifier la qualité des résultats, les dettes, créances, engagements, risques de chantier et besoins de trésorerie.",
+    "example": "Une entreprise rentable peut cacher 120 k€ de factures anciennes litigieuses.",
+    "formula": "dette nette indicative = dettes financières − trésorerie disponible",
+    "warning": "Ne jamais se limiter à un seul bilan ou à l’EBE présenté par le vendeur.",
+    "subjects": [
+      "3 ans de comptes",
+      "qualité résultat",
+      "créances et stocks",
+      "dette nette",
+      "passifs cachés",
+      "audit chantier",
+      "rapport risques"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "Valorisation d’une PME",
+    "description": "Croiser plusieurs approches et vérifier la capacité à financer l’acquisition et les besoins post-reprise.",
+    "example": "Comparer une valeur indicative par EBE normalisé à la valeur des actifs et aux flux futurs.",
+    "formula": "valeur des titres ≈ valeur d’entreprise − dette nette (avec ajustements)",
+    "warning": "Un multiple d’EBE n’est pas une preuve de juste prix.",
+    "subjects": [
+      "EBE retraité",
+      "multiples",
+      "actif net réévalué",
+      "DCF",
+      "dette nette",
+      "prix et earn-out",
+      "note de valorisation"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "Financement de la reprise",
+    "description": "Construire un plan de financement cohérent : apport, dette, accompagnement éventuel du cédant et trésorerie de sécurité.",
+    "example": "Achat 180 k€, frais 20 k€, BFR additionnel 40 k€ : besoin total 240 k€ avant autres ajustements.",
+    "formula": "besoin total = prix + frais + fonds de roulement à apporter",
+    "warning": "Le prêt de holding ne devient pas automatiquement une ressource de la société cible.",
+    "subjects": [
+      "apport",
+      "dette acquisition",
+      "holding",
+      "crédit vendeur",
+      "garanties",
+      "prévisionnel post-reprise",
+      "banquier"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "Négociation et sécurisation",
+    "description": "La lettre d’intention, les audits, le protocole et les garanties répartissent les risques de la transaction.",
+    "example": "Une créance incertaine détectée en audit doit conduire à une protection contractuelle ou un ajustement de prix.",
+    "formula": "prix final = prix négocié ± ajustements convenus",
+    "warning": "Signer sans définir les garanties expose à des passifs historiques.",
+    "subjects": [
+      "LOI",
+      "exclusivité",
+      "conditions suspensives",
+      "garantie actif-passif",
+      "séquestre",
+      "closing",
+      "transmission"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Reprise d’entreprise",
+    "title": "100 premiers jours après reprise",
+    "description": "Sécuriser les équipes, les clients, les fournisseurs, la trésorerie et le carnet de commandes avant de transformer l’organisation.",
+    "example": "Faire un tour de tous les chantiers et rencontrer les chefs d’équipe dès les premières semaines.",
+    "formula": "priorité action = impact × urgence (outil indicatif)",
+    "warning": "Changer trop vite les process peut déstabiliser la production.",
+    "subjects": [
+      "plan 30-60-100",
+      "communication salariés",
+      "clients clés",
+      "banques",
+      "trésorerie",
+      "chantiers à risque",
+      "tableau de bord"
+    ],
+    "mod": 10
+  },
+  {
+    "module": "Direction stratégique",
+    "title": "Vision, positionnement et choix",
+    "description": "Définir ce que l’entreprise fait, pour qui, dans quelle zone et avec quel avantage concurrentiel.",
+    "example": "Se spécialiser sur les villas haut de gamme en maçonnerie et coordination plutôt que tous les marchés.",
+    "formula": "rentabilité croissance = profit additionnel ÷ capital additionnel engagé",
+    "warning": "Grandir en chiffre d’affaires n’est pas toujours créer de la valeur.",
+    "subjects": [
+      "mission",
+      "segmentation",
+      "forces distinctives",
+      "analyse concurrence",
+      "choix de marché",
+      "priorités",
+      "feuille de route"
+    ],
+    "mod": 11
+  },
+  {
+    "module": "Direction stratégique",
+    "title": "Croissance, diversification et investissements",
+    "description": "Toute croissance consomme du temps de management, du BFR et parfois des équipements.",
+    "example": "Ajouter une équipe de charpente exige de mesurer compétences, assurances, charge et marge.",
+    "formula": "cash nécessaire = investissements + hausse BFR + coûts de lancement",
+    "warning": "Diversifier sans compétences opérationnelles met en danger la qualité.",
+    "subjects": [
+      "croissance organique",
+      "nouveaux métiers",
+      "capacité",
+      "capex",
+      "financement",
+      "pilotage risques",
+      "plan croissance"
+    ],
+    "mod": 11
+  },
+  {
+    "module": "Direction stratégique",
+    "title": "Gestion des risques et résilience",
+    "description": "Cartographier les risques financiers, humains, techniques, juridiques et commerciaux puis définir des actions préventives.",
+    "example": "Un seul client représentant 40 % du CA crée un risque de dépendance.",
+    "formula": "exposition indicative = probabilité × impact",
+    "warning": "La meilleure marge ne compense pas un risque catastrophique non couvert.",
+    "subjects": [
+      "risques chantier",
+      "concentration client",
+      "cyber et données",
+      "assurances",
+      "plan de continuité",
+      "stress test",
+      "revue risques"
+    ],
+    "mod": 11
+  }
+]

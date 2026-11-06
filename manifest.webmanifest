@@ -1,0 +1,18 @@
+{
+  "name": "Académie Dirigeant BTP — Formation annuelle",
+  "short_name": "Académie BTP",
+  "description": "Cours, exercices, examens et suivi pour reprendre une PME du bâtiment",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#146f63",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
